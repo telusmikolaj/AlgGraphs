@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2663c9f-418a-4ad1-b4a1-c6206a82eadf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telusmikolaj/BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telusmikolaj/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telusmikolaj/DFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telusmikolaj/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telusmikolaj/GraphFactroy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telusmikolaj/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telusmikolaj/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telusmikolaj/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/telusmikolaj/SeachPerformanceComparator.java" afterDir="false" />
+    <list default="true" id="e2663c9f-418a-4ad1-b4a1-c6206a82eadf" name="Changes" comment="alg lab graph">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telusmikolaj/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telusmikolaj/BFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telusmikolaj/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telusmikolaj/DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telusmikolaj/SeachPerformanceComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telusmikolaj/SeachPerformanceComparator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -48,6 +41,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -94,8 +88,19 @@
       <workItem from="1683741702174" duration="11479000" />
       <workItem from="1684083974256" duration="25465000" />
       <workItem from="1684940716835" duration="19616000" />
-      <workItem from="1685101483685" duration="5653000" />
+      <workItem from="1685101483685" duration="6450000" />
+      <workItem from="1685130472064" duration="594000" />
+      <workItem from="1685187921357" duration="4514000" />
+      <workItem from="1686338487303" duration="3794000" />
     </task>
+    <task id="LOCAL-00001" summary="alg lab graph">
+      <created>1685114533710</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685114533710</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,45 +117,42 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="alg lab graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="alg lab graph" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/telusmikolaj/Main.java</url>
-          <line>15</line>
+          <line>12</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/telusmikolaj/Main.java</url>
-          <line>16</line>
+          <line>13</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/telusmikolaj/SeachPerformanceComparator.java</url>
-          <line>23</line>
+          <line>24</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/telusmikolaj/SeachPerformanceComparator.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/telusmikolaj/DFS.java</url>
-          <line>19</line>
+          <line>26</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/com/telusmikolaj/Counter.java</url>
-          <line>20</line>
-          <properties field="sumOfVisits" class="com.telusmikolaj.Counter.InnerCounter" />
-          <option name="timeStamp" value="61" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/telusmikolaj/SeachPerformanceComparator.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/com/telusmikolaj/Counter.java</url>
-          <line>9</line>
-          <properties field="currentGraphSize" class="com.telusmikolaj.Counter" />
-          <option name="timeStamp" value="62" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/telusmikolaj/BFS.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

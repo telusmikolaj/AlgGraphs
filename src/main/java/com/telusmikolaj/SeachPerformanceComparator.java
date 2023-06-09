@@ -21,6 +21,7 @@ public class SeachPerformanceComparator {
     public void compareAlgoritms() {
 
         List<Graph> graphs = graphFactroy.getGraphsList(MAX_N, MIN_N, MIN_POWER_RANGE, MAX_POWER_RANGE);
+
         performSearch(graphs, "DFS", DFS);
         counter.resetCounter();
         performSearch(graphs, "BFS", BFS);
@@ -31,7 +32,7 @@ public class SeachPerformanceComparator {
         for (Graph graph : graphs) {
             counter.incrementN(graph.numOfVerticies());
             counter.setCurrentGraphSize(graph.numOfVerticies());
-
+            //graph.printGraph();
             switch (algorithm) {
                 case BFS -> new BFS(graph, graph.getStartV(), graph.getSearchedV(), counter);
                 case DFS -> new DFS(graph, graph.getStartV(), graph.getSearchedV(), counter);
